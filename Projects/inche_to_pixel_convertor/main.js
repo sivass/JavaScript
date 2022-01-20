@@ -1,6 +1,6 @@
 /*
 Title       : Inche to Pixel Convertor.
-Description : Simple conversion library for web development screen display pixel size from inche value.
+Description : To get pixel width from inches value using JS.
 Stack       : JavaScript
 Author      : Siva Padmanaban
 Contact     : sivass2703@gmail.com
