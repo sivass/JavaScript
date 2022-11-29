@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #333;
+    color: #333;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+#quote-box{
+    border-radius: 3px;
+    position: relative;
+    width: 450px;
+    padding: 40px 50px;
+    display: table;
+    background-color: #fff;
+}
+.quoteActionLayout {
+display: flex;
+justify-content: space-between;
+position: relative;
+padding-top: 20px;
+}
+.quoteActionLink {
+border: none;
+padding: 8px 12px;
+font-size: 20px;
+background-color: #333;
+border-radius: 3px;
+}
+.newQuoteActionLink {
+position: relative;
+vertical-align: middle;
+display: flex;
+}
+#new-quote {
+padding: 10px 20px;
+background-color: #333;
+color: white;
+font-weight: 400;
+font-size: 14.5px;
+border-radius: 3px;
+cursor: pointer;
+border: none;
+}
+.quoteTextLayout {
+text-align: center;
+width: 450px;
+height: auto;
+clear: both;
+font-weight: 500;
+font-size: 1.75em;
+}
+.quoteAuthorLayout {
+width: 450px;
+height: auto;
+clear: both;
+padding-top: 20px;
+font-size: 1em;
+text-align: right;
+}
+#tweet-quote {
+    color: #fff;
+}
+#developedBy,#quotesCredits{
+ padding-top: 10px;
+}
+#developedBy>a,#quotesCredits>p{
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+}
